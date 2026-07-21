@@ -21,12 +21,9 @@ Field        Distributed Artificial Intelligence
 Focus        Multi-Agent Systems, coordination and automated negotiation
 Objective    Six-month M2 internship during the second semester
 Location     France
-Mindset      Build, experiment, evaluate, improve
 ```
 
-I am a computer science student preparing to enter an **M2 in Distributed Artificial Intelligence**. My work combines artificial intelligence, autonomous agents, symbolic reasoning, machine learning and distributed software engineering.
-
-I am particularly interested in systems composed of multiple intelligent entities capable of communicating, coordinating their actions, resolving conflicts and reaching collective decisions.
+I am a computer science student preparing to enter an **M2 in Distributed Artificial Intelligence**. My work combines autonomous agents, symbolic reasoning, machine learning, NLP and distributed software engineering.
 
 ## `02 / CURRENT MISSION`
 
@@ -36,38 +33,44 @@ I am particularly interested in systems composed of multiple intelligent entitie
 - Agent communication and negotiation protocols
 - Collective decision-making and coordination
 - Agentic AI and intelligent distributed applications
-- Symbolic reasoning and argumentation
+- Symbolic reasoning, argumentation and NLP
 - Scalable architectures for AI systems
 
 ## `03 / FEATURED SYSTEMS`
 
 ### [TrainMind — Multi-Agent Negotiation System](https://github.com/Mr-Noredine/trainmind-multi-agent-negotiation)
 
-A distributed decision-making system developed with **Java and JADE**. Specialized Performance and Recovery agents negotiate a safe training plan through **FIPA ACL** messages and an iterative **Contract Net Protocol**.
+A distributed decision-making system developed with **Java and JADE**. Performance and Recovery agents negotiate a safe training plan using **FIPA ACL** and an iterative **Contract Net Protocol**.
 
 `Java` `JADE` `FIPA ACL` `Contract Net` `Multi-Agent Systems`
 
+### [LPP Argument Mining — Neuro-Symbolic Argumentation](https://github.com/thmsgo18/lpp-argument-mining)
+
+Research project completed with [Thomas Gourmelen](https://github.com/thmsgo18) as part of the **ANR GRAIL** project. We studied how argumentative texts can be transformed into **LPP/GORGIAS** representations, designed an LLM-based annotation prompt for brat corpora, and developed a Python/Graphviz pipeline that converts `.ann` annotations into structured argumentation graphs.
+
+`Python` `NLP` `Argument Mining` `Symbolic AI` `LPP/GORGIAS` `Prompt Engineering` `Graphviz`
+
 ### [TCF Prep — Cloud-Native Microservices](https://github.com/Mr-Noredine/tcf-prep-microservices)
 
-A microservices-based educational platform with independent authentication and quiz services, containerized and orchestrated using Kubernetes, with ingress and service-mesh security mechanisms.
+An educational platform structured as independent services and deployed with container orchestration and service-mesh security mechanisms.
 
 `Node.js` `React` `PostgreSQL` `Docker` `Kubernetes` `Istio`
 
 ### [Abstract Argumentation Solver](https://github.com/Mr-Noredine/abstract-argumentation-solver)
 
-A Python solver for Dung abstract argumentation frameworks supporting extension verification and credulous or sceptical acceptance under preferred and stable semantics.
+A Python solver for Dung abstract argumentation frameworks, including extension verification and credulous or sceptical acceptance.
 
 `Python` `Symbolic AI` `Automated Reasoning`
 
 ### [Shape Classification — KNN and K-means](https://github.com/Mr-Noredine/shape-classification-knn-kmeans)
 
-A recognition pipeline comparing supervised and unsupervised learning using multiple feature descriptors, PCA and detailed classification metrics.
+A recognition pipeline comparing supervised and unsupervised learning with feature descriptors, PCA and classification metrics.
 
 `Python` `scikit-learn` `KNN` `K-means` `PCA`
 
 ### [Information Retrieval Engine](https://github.com/Mr-Noredine/information-retrieval-engine)
 
-An end-to-end information retrieval workflow covering ranking, evaluation, experimentation and submission generation.
+An end-to-end information retrieval workflow covering ranking, evaluation and experimentation.
 
 `Python` `Jupyter` `Information Retrieval` `Ranking Metrics`
 
@@ -83,8 +86,6 @@ An end-to-end information retrieval workflow covering ranking, evaluation, exper
 ![JavaScript](https://img.shields.io/badge/JavaScript-0f172a?style=flat-square&logo=javascript)
 ![PHP](https://img.shields.io/badge/PHP-0f172a?style=flat-square&logo=php)
 ![Bash](https://img.shields.io/badge/Bash-0f172a?style=flat-square&logo=gnubash)
-![HTML5](https://img.shields.io/badge/HTML5-0f172a?style=flat-square&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-0f172a?style=flat-square&logo=css3)
 
 ### AI, ML and Data
 
@@ -93,6 +94,7 @@ An end-to-end information retrieval workflow covering ranking, evaluation, exper
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0f172a?style=flat-square&logo=scikitlearn)
 ![NumPy](https://img.shields.io/badge/NumPy-0f172a?style=flat-square&logo=numpy)
 ![Pandas](https://img.shields.io/badge/Pandas-0f172a?style=flat-square&logo=pandas)
+![Graphviz](https://img.shields.io/badge/Graphviz-0f172a?style=flat-square&logo=graphviz)
 ![Jupyter](https://img.shields.io/badge/Jupyter-0f172a?style=flat-square&logo=jupyter)
 
 ### Backend, Web and Data
@@ -104,7 +106,6 @@ An end-to-end information retrieval workflow covering ranking, evaluation, exper
 ![React](https://img.shields.io/badge/React-0f172a?style=flat-square&logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-0f172a?style=flat-square&logo=nextdotjs)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0f172a?style=flat-square&logo=postgresql)
-![MySQL](https://img.shields.io/badge/MySQL-0f172a?style=flat-square&logo=mysql)
 
 ### Distributed Systems and DevOps
 
@@ -114,7 +115,6 @@ An end-to-end information retrieval workflow covering ranking, evaluation, exper
 ![Istio](https://img.shields.io/badge/Istio-0f172a?style=flat-square&logo=istio)
 ![Linux](https://img.shields.io/badge/Linux-0f172a?style=flat-square&logo=linux)
 ![Git](https://img.shields.io/badge/Git-0f172a?style=flat-square&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-0f172a?style=flat-square&logo=github)
 
 ## `05 / CORE KNOWLEDGE`
 
@@ -127,17 +127,16 @@ mindmap
       Contract Net
       Coordination
       Negotiation
-    Artificial Intelligence
-      Machine Learning
-      Symbolic AI
-      Information Retrieval
-      NLP and Embeddings
+    Neuro-Symbolic AI
+      Argument Mining
+      LPP/GORGIAS
+      Symbolic Reasoning
+      NLP
     Distributed Engineering
       Microservices
       Docker
       Kubernetes
       Service Mesh
-      Network Security
 ```
 
 ## `06 / CONTACT`
